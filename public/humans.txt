@@ -1,0 +1,17 @@
+/* TEAM */
+Conferencista, autora y consultora: Paula Andrea Pinzón Maldonado
+Sitio: https://www.paulaandreapinzon.com/
+LinkedIn: https://www.linkedin.com/in/paula-pinzon-maldonado/
+Ubicación: Bogotá, Colombia
+
+/* THANKS */
+John Jairo Ortiz — compañero de vida y colaborador en innovación digital.
+Tribu IA Colombia
+Women in Tech Colombia
+
+/* SITE */
+Última actualización: 2026-05-20
+Idioma: es-CO
+Doctype: HTML5
+Stack: React + Vite + TypeScript + TailwindCSS
+Estándares: Schema.org (JSON-LD), Open Graph, Twitter Cards, Sitemap XML con video/image extensions, llms.txt

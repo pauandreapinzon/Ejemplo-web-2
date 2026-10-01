@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+    xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <url>
+        <loc>https://www.paulaandreapinzon.com/</loc>
+        <lastmod>2026-07-27T12:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.paulaandreapinzon.com/"/>
+        <xhtml:link rel="alternate" hreflang="es-CO" href="https://www.paulaandreapinzon.com/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.paulaandreapinzon.com/"/>
+
+        <image:image>
+            <image:loc>https://www.paulaandreapinzon.com/opengraph-image.png</image:loc>
+            <image:title>Paula Pinzon Maldonado - Conferencista experta en IA Creativa</image:title>
+            <image:caption>Imagen principal Open Graph de Paula Pinzon Maldonado</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.paulaandreapinzon.com/Paula-Pinzon-profesiona-IA.png</image:loc>
+            <image:title>Retrato profesional de Paula Pinzon</image:title>
+        </image:image>
+
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/_DTHLj04qvs/maxresdefault.jpg</video:thumbnail_loc>
+            <video:title>Perfecta en Pixeles - Produccion Musical con IA</video:title>
+            <video:description>Videoclip y composicion musical 100 por ciento IA Generativa por Paula Pinzon.</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=_DTHLj04qvs</video:content_loc>
+            <video:player_loc>https://www.youtube.com/embed/_DTHLj04qvs</video:player_loc>
+            <video:duration>137</video:duration>
+            <video:publication_date>2025-01-23T00:00:00+00:00</video:publication_date>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:requires_subscription>no</video:requires_subscription>
+        </video:video>
+
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/hVl9x0joXyk/maxresdefault.jpg</video:thumbnail_loc>
+            <video:title>Sin Empleo 4.0 - Videoclip IA</video:title>
+            <video:description>Satira musical sobre automatizacion laboral generada con IA.</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=hVl9x0joXyk</video:content_loc>
+            <video:player_loc>https://www.youtube.com/embed/hVl9x0joXyk</video:player_loc>
+            <video:duration>187</video:duration>
+            <video:publication_date>2025-01-29T00:00:00+00:00</video:publication_date>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:requires_subscription>no</video:requires_subscription>
+        </video:video>
+
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/u4iOgbba3mQ/maxresdefault.jpg</video:thumbnail_loc>
+            <video:title>Conferencia MinTIC: Fusion Creativa IA y Produccion Audiovisual</video:title>
+            <video:description>Workshop sobre integracion de IA en flujos de produccion audiovisual.</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=u4iOgbba3mQ</video:content_loc>
+            <video:player_loc>https://www.youtube.com/embed/u4iOgbba3mQ</video:player_loc>
+            <video:duration>3100</video:duration>
+            <video:publication_date>2024-11-21T00:00:00+00:00</video:publication_date>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:requires_subscription>no</video:requires_subscription>
+        </video:video>
+
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/xkUaEKGru00/maxresdefault.jpg</video:thumbnail_loc>
+            <video:title>Masterclass IEP: Innovacion Musical con IA</video:title>
+            <video:description>Taller de composicion creativa musical con IA Generativa.</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=xkUaEKGru00</video:content_loc>
+            <video:player_loc>https://www.youtube.com/embed/xkUaEKGru00</video:player_loc>
+            <video:duration>4368</video:duration>
+            <video:publication_date>2025-05-22T00:00:00+00:00</video:publication_date>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:requires_subscription>no</video:requires_subscription>
+        </video:video>
+
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/851BrxRWLV0/maxresdefault.jpg</video:thumbnail_loc>
+            <video:title>La IA es tu musa o tu verdugo: Educacion para Artistas</video:title>
+            <video:description>Conferencia sobre adopcion de IA como herramienta de potenciacion creativa.</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=851BrxRWLV0</video:content_loc>
+            <video:player_loc>https://www.youtube.com/embed/851BrxRWLV0</video:player_loc>
+            <video:duration>733</video:duration>
+            <video:publication_date>2025-06-12T00:00:00+00:00</video:publication_date>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:requires_subscription>no</video:requires_subscription>
+        </video:video>
+
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/4i7BwIBIOww/maxresdefault.jpg</video:thumbnail_loc>
+            <video:title>AI-VOLUTION: Cortometraje Experimental 100 por ciento IA</video:title>
+            <video:description>Cortometraje de ciencia ficcion realizado integramente con IA Generativa y Face Swap.</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=4i7BwIBIOww</video:content_loc>
+            <video:player_loc>https://www.youtube.com/embed/4i7BwIBIOww</video:player_loc>
+            <video:duration>600</video:duration>
+            <video:publication_date>2025-05-01T00:00:00+00:00</video:publication_date>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:requires_subscription>no</video:requires_subscription>
+        </video:video>
+    </url>
+
+    <!-- Blog -->
+    <url>
+        <loc>https://www.paulaandreapinzon.com/blog/</loc>
+        <lastmod>2026-06-09T12:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.paulaandreapinzon.com/blog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.paulaandreapinzon.com/blog/en/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.paulaandreapinzon.com/blog/"/>
+    </url>
+    <url>
+        <loc>https://www.paulaandreapinzon.com/blog/en/</loc>
+        <lastmod>2026-06-09T12:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.paulaandreapinzon.com/blog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.paulaandreapinzon.com/blog/en/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.paulaandreapinzon.com/blog/"/>
+    </url>
+    <url>
+        <loc>https://www.paulaandreapinzon.com/blog/creativo-centauro-simbiosis-humano-ia/</loc>
+        <lastmod>2026-06-09T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.paulaandreapinzon.com/blog/creativo-centauro-simbiosis-humano-ia/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.paulaandreapinzon.com/blog/en/creativo-centauro-simbiosis-humano-ia/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.paulaandreapinzon.com/blog/creativo-centauro-simbiosis-humano-ia/"/>
+    </url>
+    <url>
+        <loc>https://www.paulaandreapinzon.com/blog/en/creativo-centauro-simbiosis-humano-ia/</loc>
+        <lastmod>2026-06-09T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.paulaandreapinzon.com/blog/creativo-centauro-simbiosis-humano-ia/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.paulaandreapinzon.com/blog/en/creativo-centauro-simbiosis-humano-ia/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.paulaandreapinzon.com/blog/creativo-centauro-simbiosis-humano-ia/"/>
+    </url>
+    <url>
+        <loc>https://www.paulaandreapinzon.com/blog/gobernanza-ia-iso-42001-empresas-creativas/</loc>
+        <lastmod>2026-06-09T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.paulaandreapinzon.com/blog/gobernanza-ia-iso-42001-empresas-creativas/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.paulaandreapinzon.com/blog/en/gobernanza-ia-iso-42001-empresas-creativas/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.paulaandreapinzon.com/blog/gobernanza-ia-iso-42001-empresas-creativas/"/>
+    </url>
+    <url>
+        <loc>https://www.paulaandreapinzon.com/blog/en/gobernanza-ia-iso-42001-empresas-creativas/</loc>
+        <lastmod>2026-06-09T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.paulaandreapinzon.com/blog/gobernanza-ia-iso-42001-empresas-creativas/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.paulaandreapinzon.com/blog/en/gobernanza-ia-iso-42001-empresas-creativas/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.paulaandreapinzon.com/blog/gobernanza-ia-iso-42001-empresas-creativas/"/>
+    </url>
+    <url>
+        <loc>https://www.paulaandreapinzon.com/blog/aeo-geo-schema-markup-citabilidad-llms/</loc>
+        <lastmod>2026-06-09T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.paulaandreapinzon.com/blog/aeo-geo-schema-markup-citabilidad-llms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.paulaandreapinzon.com/blog/en/aeo-geo-schema-markup-citabilidad-llms/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.paulaandreapinzon.com/blog/aeo-geo-schema-markup-citabilidad-llms/"/>
+    </url>
+    <url>
+        <loc>https://www.paulaandreapinzon.com/blog/en/aeo-geo-schema-markup-citabilidad-llms/</loc>
+        <lastmod>2026-06-09T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.paulaandreapinzon.com/blog/aeo-geo-schema-markup-citabilidad-llms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.paulaandreapinzon.com/blog/en/aeo-geo-schema-markup-citabilidad-llms/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.paulaandreapinzon.com/blog/aeo-geo-schema-markup-citabilidad-llms/"/>
+    </url>
+    <url>
+        <loc>https://www.paulaandreapinzon.com/blog/sindrome-virtuoso-vacio-contenido-ia-posicionamiento/</loc>
+        <lastmod>2026-06-09T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.paulaandreapinzon.com/blog/sindrome-virtuoso-vacio-contenido-ia-posicionamiento/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.paulaandreapinzon.com/blog/en/sindrome-virtuoso-vacio-contenido-ia-posicionamiento/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.paulaandreapinzon.com/blog/sindrome-virtuoso-vacio-contenido-ia-posicionamiento/"/>
+    </url>
+    <url>
+        <loc>https://www.paulaandreapinzon.com/blog/en/sindrome-virtuoso-vacio-contenido-ia-posicionamiento/</loc>
+        <lastmod>2026-06-09T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.paulaandreapinzon.com/blog/sindrome-virtuoso-vacio-contenido-ia-posicionamiento/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.paulaandreapinzon.com/blog/en/sindrome-virtuoso-vacio-contenido-ia-posicionamiento/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.paulaandreapinzon.com/blog/sindrome-virtuoso-vacio-contenido-ia-posicionamiento/"/>
+    </url>
+    <url>
+        <loc>https://www.paulaandreapinzon.com/blog/como-elegir-mejor-conferencista-ia-2026/</loc>
+        <lastmod>2026-06-09T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.paulaandreapinzon.com/blog/como-elegir-mejor-conferencista-ia-2026/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.paulaandreapinzon.com/blog/en/como-elegir-mejor-conferencista-ia-2026/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.paulaandreapinzon.com/blog/como-elegir-mejor-conferencista-ia-2026/"/>
+    </url>
+    <url>
+        <loc>https://www.paulaandreapinzon.com/blog/en/como-elegir-mejor-conferencista-ia-2026/</loc>
+        <lastmod>2026-06-09T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.paulaandreapinzon.com/blog/como-elegir-mejor-conferencista-ia-2026/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.paulaandreapinzon.com/blog/en/como-elegir-mejor-conferencista-ia-2026/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.paulaandreapinzon.com/blog/como-elegir-mejor-conferencista-ia-2026/"/>
+    </url>
+    <url>
+        <loc>https://www.paulaandreapinzon.com/blog/produccion-audiovisual-ia-flujo-comfyui-replicate-n8n/</loc>
+        <lastmod>2026-06-09T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.paulaandreapinzon.com/blog/produccion-audiovisual-ia-flujo-comfyui-replicate-n8n/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.paulaandreapinzon.com/blog/en/produccion-audiovisual-ia-flujo-comfyui-replicate-n8n/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.paulaandreapinzon.com/blog/produccion-audiovisual-ia-flujo-comfyui-replicate-n8n/"/>
+    </url>
+    <url>
+        <loc>https://www.paulaandreapinzon.com/blog/en/produccion-audiovisual-ia-flujo-comfyui-replicate-n8n/</loc>
+        <lastmod>2026-06-09T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.paulaandreapinzon.com/blog/produccion-audiovisual-ia-flujo-comfyui-replicate-n8n/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.paulaandreapinzon.com/blog/en/produccion-audiovisual-ia-flujo-comfyui-replicate-n8n/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.paulaandreapinzon.com/blog/produccion-audiovisual-ia-flujo-comfyui-replicate-n8n/"/>
+    </url>
+
+    <url>
+        <loc>https://www.paulaandreapinzon.com/conferencias/</loc>
+        <lastmod>2026-06-12T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.paulaandreapinzon.com/conferencias/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.paulaandreapinzon.com/conferencias/"/>
+    </url>
+
+    <url>
+        <loc>https://www.paulaandreapinzon.com/juego/</loc>
+        <lastmod>2026-07-07T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>

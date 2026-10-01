@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publicaciones de Paula Pinzón — IA Creativa, GEO/AEO y Gobernanza</title>
+    <link>https://www.paulaandreapinzon.com/blog</link>
+    <atom:link href="https://www.paulaandreapinzon.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Estrategia, gobernanza y producción con Inteligencia Artificial para creativos, agencias y empresas. Por Paula Andrea Pinzón, conferencista internacional en IA Creativa.</description>
+    <language>es</language>
+    <lastBuildDate>Mon, 06 Jul 2026 15:11:27 +0000</lastBuildDate>
+    <item>
+      <title>Producción audiovisual con IA: flujo real con ComfyUI, Replicate y n8n</title>
+      <link>https://www.paulaandreapinzon.com/blog/produccion-audiovisual-ia-flujo-comfyui-replicate-n8n/</link>
+      <guid isPermaLink="true">https://www.paulaandreapinzon.com/blog/produccion-audiovisual-ia-flujo-comfyui-replicate-n8n/</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Un pipeline práctico para producir audiovisual con IA en 2026: concepto, imagen, video, voz y montaje con ComfyUI, Replicate y n8n, y dónde debe entrar el criterio humano para no caer en el promedio.</description>
+    </item>
+    <item>
+      <title>Cómo elegir al mejor conferencista de IA para tu evento en 2026 (guía y precios)</title>
+      <link>https://www.paulaandreapinzon.com/blog/como-elegir-mejor-conferencista-ia-2026/</link>
+      <guid isPermaLink="true">https://www.paulaandreapinzon.com/blog/como-elegir-mejor-conferencista-ia-2026/</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Guía para elegir al mejor conferencista de IA en 2026: los cuatro tipos que existen, cuánto cuestan (rangos reales en USD), seis criterios de selección y las preguntas clave antes de contratar.</description>
+    </item>
+    <item>
+      <title>El Creativo Centauro: el modelo de simbiosis humano-IA de Paula Pinzón</title>
+      <link>https://www.paulaandreapinzon.com/blog/creativo-centauro-simbiosis-humano-ia/</link>
+      <guid isPermaLink="true">https://www.paulaandreapinzon.com/blog/creativo-centauro-simbiosis-humano-ia/</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+      <description>El Creativo Centauro es el modelo de Paula Pinzón para la simbiosis humano-IA: el creador dirige la visión estratégica mientras la IA ejecuta. No es reemplazo, es creatividad aumentada con criterio.</description>
+    </item>
+    <item>
+      <title>Qué es AEO y GEO: guía de Schema Markup para que los LLMs te citen</title>
+      <link>https://www.paulaandreapinzon.com/blog/aeo-geo-schema-markup-citabilidad-llms/</link>
+      <guid isPermaLink="true">https://www.paulaandreapinzon.com/blog/aeo-geo-schema-markup-citabilidad-llms/</guid>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <description>SEO ya no basta. Aprende qué son AEO y GEO y cómo usar Schema Markup para que ChatGPT, Claude, Perplexity y Gemini te citen como fuente. Guía práctica de Paula Pinzón con datos 2026.</description>
+    </item>
+    <item>
+      <title>Gobernanza de IA con ISO/IEC 42001: guía para empresas creativas en 2026</title>
+      <link>https://www.paulaandreapinzon.com/blog/gobernanza-ia-iso-42001-empresas-creativas/</link>
+      <guid isPermaLink="true">https://www.paulaandreapinzon.com/blog/gobernanza-ia-iso-42001-empresas-creativas/</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <description>Qué es ISO/IEC 42001, por qué tu agencia o productora necesita gobernanza de IA en 2026 y cómo empezar: derechos de autor, datos de clientes, sesgo y transparencia explicados sin jerga.</description>
+    </item>
+    <item>
+      <title>El Síndrome del Virtuoso Vacío: por qué el contenido &#x27;perfecto&#x27; de IA hunde tu posicionamiento</title>
+      <link>https://www.paulaandreapinzon.com/blog/sindrome-virtuoso-vacio-contenido-ia-posicionamiento/</link>
+      <guid isPermaLink="true">https://www.paulaandreapinzon.com/blog/sindrome-virtuoso-vacio-contenido-ia-posicionamiento/</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <description>El contenido perfecto pero genérico de la IA no posiciona: destruye tu autoridad porque los LLMs no citan lo que ya saben decir. Paula Pinzón explica el Síndrome del Virtuoso Vacío y su cura.</description>
+    </item>
+  </channel>
+</rss>

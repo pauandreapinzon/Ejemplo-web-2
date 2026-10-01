@@ -1,0 +1,82 @@
+# .htaccess - Paula Pinzon Maldonado (Hostinger / Apache)
+# 1) Fuerza dominio canonico: https + www
+# 2) Rutas SPA reales + 404 REAL para todo lo que no existe
+# 3) Cache + compresion
+# Revision: 2026-07-27  (corrige el soft-404 universal)
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # --- 1) CANONICO: forzar https y www -------------------------------
+  # Si entra sin www (paulaandreapinzon.com) -> www.paulaandreapinzon.com
+  RewriteCond %{HTTP_HOST} ^paulaandreapinzon\.com$ [NC]
+  RewriteRule ^(.*)$ https://www.paulaandreapinzon.com/$1 [R=301,L]
+
+  # Si entra por http -> https (por si el hosting no lo fuerza)
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://www.paulaandreapinzon.com/$1 [R=301,L]
+
+  # --- 2) RUTAS DE LA APP -------------------------------------------
+  # Archivos y carpetas reales (/blog/, /conferencias/, /juego/, assets,
+  # imagenes, sitemap.xml, llms.txt...) se sirven tal cual: los cubre -f / -d.
+  RewriteRule ^index\.html$ - [L]
+
+  # Ruta del router de React que NO tiene carpeta fisica.
+  # (Hoy /conferencias/ SI existe como carpeta estatica, pero se deja la
+  #  regla por si se vuelve a servir desde el bundle. Anadir aqui cualquier
+  #  ruta nueva de React Router ANTES de la regla de 404.)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^conferencias/?$ /index.html [L]
+
+  # ANTES: "RewriteRule . /index.html [L]" devolvia 200 + la home para
+  # CUALQUIER URL inexistente (incluidas .png, .xml, .pdf). Eso rompia
+  # las vistas previas de og:image, generaba soft-404 en Search Console y
+  # duplicaba la home en URLs arbitrarias. Ahora se devuelve un 404 real.
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ - [R=404,L]
+</IfModule>
+
+# Pagina de error propia (404 real, con noindex)
+ErrorDocument 404 /404.html
+
+# Compresion
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json application/xml image/svg+xml text/plain
+</IfModule>
+
+# Cache: assets con hash de Vite pueden cachearse fuerte; el HTML no.
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType application/rss+xml "access plus 1 hour"
+  ExpiresByType application/xml "access plus 1 hour"
+  ExpiresByType video/mp4 "access plus 1 year"
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|woff2|webp|jpg|jpeg|png|svg|mp4|webm)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+  Header set X-Content-Type-Options "nosniff"
+</IfModule>
+
+# UTF-8 explicito para los ficheros de texto que leen los LLM.
+# Sin esto, llms.txt y robots.txt se sirven sin charset y los acentos
+# pueden llegar corruptos a los crawlers.
+AddDefaultCharset UTF-8
+AddType text/plain;charset=UTF-8 .txt
+AddType text/markdown;charset=UTF-8 .md
+AddType application/xml;charset=UTF-8 .xml
