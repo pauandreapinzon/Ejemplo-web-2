@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="La Travesía del Centauro: un juego de aventura para aprender a dirigir la inteligencia artificial con criterio. Inspirado en el libro IA para Creativos, de Paula Pinzón." />
+    <meta name="theme-color" content="#0b0e1a" />
+    <title>La Travesía del Centauro — IA para Creativos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      html, body { margin: 0; padding: 0; height: 100%; background: #0b0e1a; overflow: hidden; }
+      #app { position: fixed; inset: 0; }
+      #app canvas { display: block; }
+      /* Pantalla de carga elegante antes de que arranque Phaser */
+      #preboot {
+        position: fixed; inset: 0; display: flex; flex-direction: column;
+        align-items: center; justify-content: center; gap: 14px;
+        background: radial-gradient(ellipse at 50% 40%, #171d36 0%, #0b0e1a 70%);
+        color: #e8e4f5; font-family: Inter, system-ui, sans-serif;
+        transition: opacity .5s ease; z-index: 50;
+      }
+      #preboot.hide { opacity: 0; pointer-events: none; }
+      #preboot h1 { font-family: "Cormorant Garamond", serif; font-size: clamp(24px, 5vw, 40px); margin: 0; color: #f5c96b; letter-spacing: .04em; }
+      #preboot .bar { width: min(260px, 60vw); height: 4px; border-radius: 2px; background: #232a4a; overflow: hidden; }
+      #preboot .bar i { display: block; height: 100%; width: 40%; border-radius: 2px; background: linear-gradient(90deg, #a879ff, #f5c96b); animation: slide 1.1s ease-in-out infinite; }
+      @keyframes slide { 0% { transform: translateX(-100%); } 100% { transform: translateX(260%); } }
+      @media (prefers-reduced-motion: reduce) { #preboot .bar i { animation: none; width: 100%; } }
+    </style>
+    <script type="module" crossorigin src="./assets/index-YgBEmdPc.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-B56LjQIc.css">
+      <link rel="canonical" href="https://www.paulaandreapinzon.com/juego/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="La Travesía del Centauro — juego del libro IA para Creativos">
+    <meta property="og:description" content="Juego de aventura gratuito para aprender a dirigir la inteligencia artificial con criterio. Basado en el libro IA para Creativos de Paula Pinzón.">
+    <meta property="og:url" content="https://www.paulaandreapinzon.com/juego/">
+    <meta property="og:image" content="https://www.paulaandreapinzon.com/opengraph-image.png">
+    <meta property="og:locale" content="es_CO">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoGame",
+      "name": "La Travesía del Centauro",
+      "url": "https://www.paulaandreapinzon.com/juego/",
+      "description": "Juego de aventura educativo para aprender a dirigir la inteligencia artificial con criterio, convirtiéndote en un Creativo Centauro.",
+      "inLanguage": "es",
+      "genre": ["Educational", "Adventure"],
+      "gamePlatform": "Web Browser",
+      "playMode": "SinglePlayer",
+      "isAccessibleForFree": true,
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+      "isBasedOn": {"@type": "Book", "name": "IA para Creativos", "author": {"@type": "Person", "name": "Paula Andrea Pinzón Maldonado", "url": "https://www.paulaandreapinzon.com/"}},
+      "author": {"@type": "Person", "name": "Paula Andrea Pinzón Maldonado", "url": "https://www.paulaandreapinzon.com/", "sameAs": ["https://orcid.org/0009-0009-8462-1384", "https://www.linkedin.com/in/paula-pinzon-maldonado/"]}
+    }
+    </script>
+</head>
+  <body>
+    <div id="preboot" role="status" aria-label="Cargando el juego">
+      <h1>La Travesía del Centauro</h1>
+      <div class="bar"><i></i></div>
+    </div>
+    <div id="app" aria-label="La Travesía del Centauro, juego de aventura"></div>
+  </body>
+</html>
